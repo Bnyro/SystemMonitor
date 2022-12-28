@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  pointer-events: none;
 }
 
 :root {
@@ -27,7 +28,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  padding: 15vh 0;
+  padding: 20vh 0;
 }
 
 section {
