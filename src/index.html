@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tauri App</title>
+    <script type="module" src="/main.js" defer></script>
+  </head>
+
+  <body>
+    <section id="stats">
+      <span>
+        <div class="progress" id="cpu_usage" data-progress="90" style="--progress: 90;">36%</div>
+        <p>CPU</p>
+      </span>
+      <span>
+        <div class="progress" id="ram_usage" data-progress="90" style="--progress: 90;">36%</div>
+        <p>RAM</p>
+      </span>
+      <span>
+        <div class="progress" id="disk_usage" data-progress="90" style="--progress: 90;">36%</div>
+        <p>Disk</p>
+      </span>
+    </section>
+    <section id="info">
+      <div>OS: <span id="sys_name"></span></div>
+      <div>Version: <span id="sys_version"></span></div>
+      <div>Kernel: <span id="kernel_version"></span></div>
+      <div>Hostname: <span id="host_name"></span></div>
+    </section>
+  </body>
+</html>
